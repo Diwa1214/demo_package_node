@@ -1,0 +1,21 @@
+{
+  "name": "demo_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yaanetechjwt/auth": "^1.0.52",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "pub": "^0.2.0",
+    "typescript": "^5.0.4"
+  }
+}
